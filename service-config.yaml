@@ -1,0 +1,6 @@
+server:
+  type: simple
+  applicationContextPath: /service-conll2tcf
+  connector:
+    type: http
+    port: 8080

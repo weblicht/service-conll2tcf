@@ -1,0 +1,1148 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Es war einmal eine Witwe, die hatte zwei Töchter.
+1	Es	Es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	einmal	einmal	ADV	ADV	_	5	advmod	_	_
+4	eine	eine	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Witwe	Witwe	NOUN	NN	Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	PunctType=Comm	8	punct	_	_
+7	die	die	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel	8	nsubj	_	_
+8	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
+9	zwei	zwei	NUM	CARD	Number=Plur|NumType=Card|Person=3	10	nummod	_	_
+10	Töchter	Tochter	NOUN	NN	Gender=Fem|Number=Plur|Person=3	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	PunctType=Peri	8	punct	_	_
+
+# sent_id = 2
+# text = Die ältere glich an Gesicht und Charakter so sehr ihrer Mutter, daß man sogleich denselben Ton erkannte.
+1	Die	Die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+2	ältere	alt	ADJ	ADJA	Degree=Cmp|Gender=Fem|Number=Sing	11	amod	_	_
+3	glich	glich	ADJ	ADJD	Degree=Pos|Variant=Short	11	advmod	_	_
+4	an	an	ADP	APPR	AdpType=Prep|Case=Dat	5	case	_	_
+5	Gesicht	Gesicht	NOUN	NN	Gender=Neut|Number=Sing|Person=3	3	obl	_	SpacesAfter=\n
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Charakter	Charakter	NOUN	NN	Gender=Masc|Number=Sing|Person=3	5	conj	_	_
+8	so	so	ADV	ADV	Degree=Pos	9	advmod	_	_
+9	sehr	sehr	ADV	ADV	Degree=Pos	11	advmod	_	_
+10	ihrer	sein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	Mutter	Mutter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	$,	PunctType=Comm	18	punct	_	_
+13	daß	daß	SCONJ	KOUS	_	18	mark	_	_
+14	man	man	PRON	PIS	Case=Nom|Number=Sing|Person=3|PronType=Ind,Neg,Tot	18	nsubj	_	_
+15	sogleich	sogleich	ADV	ADV	_	18	advmod	_	_
+16	denselben	derselbe	DET	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	Ton	Ton	NOUN	NN	Gender=Masc|Number=Sing|Person=3	18	obj	_	_
+18	erkannte	erkennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	$.	PunctType=Peri	11	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Beide, Mutter und Tochter, waren gleich unausstehlich und gleich hochmütig und eingebildet.
+1	Beide	beide	PRON	PIS	Case=Nom|Number=Plur|Person=3|PronType=Ind,Neg,Tot	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	$,	PunctType=Comm	3	punct	_	_
+3	Mutter	Mutter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	1	conj	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Tochter	Tochter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	PunctType=Comm	1	punct	_	_
+7	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	gleich	gleich	ADJ	ADJD	Degree=Pos|Variant=Short	9	advmod	_	_
+9	unausstehlich	unausstehlich	ADJ	ADJD	Degree=Pos|Variant=Short	0	root	_	_
+10	und	und	CCONJ	KON	_	12	cc	_	_
+11	gleich	gleich	ADJ	ADJD	Degree=Pos|Variant=Short	12	advmod	_	_
+12	hochmütig	hochmütig	ADJ	ADJD	Degree=Pos|Variant=Short	9	conj	_	_
+13	und	und	CCONJ	KON	_	14	cc	_	SpacesAfter=\n
+14	eingebildet	eingebilden	VERB	VVPP	Aspect=Perf|VerbForm=Part	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 4
+# text = Die jüngere hingegen glich ganz ihrem seligen Vater, der zu gut und zu brav gewesen, um es lange an der Seite seiner Gattin auszuhalten, und der sich darum beizeiten vor ihr in die Erde geflüchtet.
+1	Die	Die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+2	jüngere	jung	ADJ	ADJA	Degree=Cmp|Gender=Fem|Number=Sing	8	amod	_	_
+3	hingegen	hingegen	ADV	ADV	_	8	advmod	_	_
+4	glich	glich	ADJ	ADJD	Degree=Pos|Variant=Short	8	advmod	_	_
+5	ganz	ganz	ADV	ADV	_	8	advmod	_	_
+6	ihrem	sein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+7	seligen	selig	ADJ	ADJA	Degree=Pos|Number=Sing	8	amod	_	_
+8	Vater	Vater	NOUN	NN	Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	PunctType=Comm	16	punct	_	_
+10	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel	16	nsubj	_	_
+11	zu	zu	ADP	APPR	AdpType=Prep|Case=Dat	12	case	_	_
+12	gut	gut	ADJ	ADJD	Degree=Pos|Variant=Short	16	obl	_	SpacesAfter=\n
+13	und	und	CCONJ	KON	_	15	cc	_	_
+14	zu	zu	ADV	PTKA	_	15	advmod	_	_
+15	brav	brav	ADJ	ADJD	Degree=Pos|Variant=Short	12	conj	_	_
+16	gewesen	sein	AUX	VAPP	Aspect=Perf|VerbForm=Part	8	acl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	PunctType=Comm	26	punct	_	_
+18	um	um	SCONJ	KOUI	_	26	mark	_	_
+19	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+20	lange	lange	ADJ	ADJD	Degree=Pos|Variant=Short	26	advmod	_	_
+21	an	an	ADP	APPR	AdpType=Prep|Case=Dat	23	case	_	_
+22	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Seite	Seite	NOUN	NN	Gender=Fem|Number=Sing|Person=3	26	obl	_	_
+24	seiner	sein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	Gattin	Gattin	NOUN	NN	Gender=Fem|Number=Sing|Person=3	23	nmod	_	_
+26	auszuhalten	aushalten	VERB	VVIZU	VerbForm=Inf	16	advcl	_	SpaceAfter=No
+27	,	,	PUNCT	$,	PunctType=Comm	32	punct	_	_
+28	und	und	CCONJ	KON	_	32	cc	_	SpacesAfter=\n
+29	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel	32	nsubj	_	_
+30	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	32	obj	_	_
+31	darum	darum	ADV	PROAV	_	32	advmod	_	_
+32	beizeiten	beizeit	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+33	vor	vor	ADP	APPR	AdpType=Prep|Case=Dat	34	case	_	_
+34	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obl	_	_
+35	in	in	ADP	APPR	AdpType=Prep|Case=Acc	37	case	_	_
+36	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Erde	Erde	NOUN	NN	Gender=Fem|Number=Sing|Person=3	32	obl	_	_
+38	geflüchtet	flüchten	VERB	VVPP	Aspect=Perf|VerbForm=Part	32	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	$.	PunctType=Peri	16	punct	_	_
+
+# sent_id = 5
+# text = Da böse Leute nur ihresgleichen lieben, so liebte die Mutter auch nur ihre ältere Tochter, während sie die jüngere nicht riechen konnte.
+1	Da	Da	SCONJ	KOUS	_	6	mark	_	_
+2	böse	böse	ADJ	ADJA	Degree=Pos|Number=Plur	3	amod	_	_
+3	Leute	Leut	NOUN	NN	Gender=Masc|Number=Plur|Person=3	6	nsubj	_	_
+4	nur	nur	ADV	ADV	_	5	advmod	_	SpacesAfter=\n
+5	ihresgleichen	ihresgleichen	PRON	PIS	Person=3|PronType=Ind,Neg,Tot	6	obj	_	_
+6	lieben	lieben	VERB	VVINF	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	$,	PunctType=Comm	6	punct	_	_
+8	so	so	ADV	ADV	Degree=Pos	9	advmod	_	_
+9	liebte	lieben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Mutter	Mutter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+12	auch	auch	ADV	ADV	_	9	advmod	_	_
+13	nur	nur	ADV	ADV	_	16	advmod	_	_
+14	ihre	sein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+15	ältere	alt	ADJ	ADJA	Degree=Cmp|Gender=Fem|Number=Sing	16	amod	_	_
+16	Tochter	Tochter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	9	obj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	PunctType=Comm	23	punct	_	SpacesAfter=\n
+18	während	während	SCONJ	KOUS	_	23	mark	_	_
+19	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
+20	die	die	DET	ART	Case=Acc|Number=Plur|PronType=Art	21	det	_	_
+21	jüngere	jung	ADJ	ADJA	Degree=Cmp|Number=Plur	23	obj	_	_
+22	nicht	nicht	PART	PTKNEG	Polarity=Neg	23	advmod	_	_
+23	riechen	riechen	VERB	VVINF	VerbForm=Inf	9	advcl	_	_
+24	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbType=Mod	23	aux	_	SpaceAfter=No
+25	.	.	PUNCT	$.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 6
+# text = Diese mußte in der Küche essen und für beide arbeiten, als wäre sie ihre Magd.
+1	Diese	Diese	PRON	PDS	Case=Nom|Number=Plur|Person=3|PronType=Dem	6	nsubj	_	_
+2	mußte	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbType=Mod	6	aux	_	_
+3	in	in	ADP	APPR	AdpType=Prep|Case=Dat	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Küche	Küche	NOUN	NN	Gender=Fem|Number=Sing|Person=3	6	obl	_	_
+6	essen	essen	VERB	VVINF	VerbForm=Inf	0	root	_	SpacesAfter=\n
+7	und	und	CCONJ	KON	_	10	cc	_	_
+8	für	für	ADP	APPR	AdpType=Prep|Case=Acc	9	case	_	_
+9	beide	beide	PRON	PIS	Case=Acc|Number=Plur|Person=3|PronType=Ind,Neg,Tot	10	obl	_	_
+10	arbeiten	arbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	PunctType=Comm	16	punct	_	_
+12	als	als	CCONJ	KOKOM	ConjType=Comp	16	mark	_	_
+13	wäre	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+15	ihre	sein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	Magd	Magd	NOUN	NN	Gender=Fem|Number=Sing|Person=3	6	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	PunctType=Peri	6	punct	_	_
+
+# sent_id = 7
+# text = Unter anderem mußte das arme Mädchen täglich zweimal eine halbe Stunde weit laufen, um frisches Wasser zu holen, und immer mußte der große Krug voll sein bis zum Rande.
+1	Unter	Unter	ADP	APPR	AdpType=Prep|Case=Dat	2	case	_	_
+2	anderem	ander	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Ind,Neg,Tot	13	obl	_	_
+3	mußte	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbType=Mod	13	aux	_	_
+4	das	das	DET	ART	Case=Nom|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	arme	arm	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	SpacesAfter=\n
+6	Mädchen	Mädchen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	13	nsubj	_	_
+7	täglich	täglich	ADJ	ADJD	Degree=Pos|Variant=Short	13	advmod	_	_
+8	zweimal	zweimal	ADV	ADV	_	13	advmod	_	_
+9	eine	eine	DET	ART	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	halbe	halb	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Stunde	Stunde	NOUN	NN	Gender=Fem|Number=Sing|Person=3	13	obl	_	_
+12	weit	weit	ADJ	ADJD	Degree=Pos|Variant=Short	13	advmod	_	_
+13	laufen	laufen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	$,	PunctType=Comm	19	punct	_	_
+15	um	um	SCONJ	KOUI	_	19	mark	_	_
+16	frisches	frisch	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	Wasser	Wasser	NOUN	NN	Gender=Neut|Number=Sing|Person=3	19	obj	_	_
+18	zu	zu	PART	PTKZU	PartType=Inf	19	mark	_	SpacesAfter=\n
+19	holen	holen	VERB	VVINF	VerbForm=Inf	13	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	$,	PunctType=Comm	27	punct	_	_
+21	und	und	CCONJ	KON	_	27	cc	_	_
+22	immer	immer	ADV	ADV	_	27	advmod	_	_
+23	mußte	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbType=Mod	27	aux	_	_
+24	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	große	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	Krug	krug	PROPN	NE	Number=Sing|Person=3	27	nsubj	_	_
+27	voll	voll	ADJ	ADJD	Degree=Pos|Variant=Short	13	conj	_	_
+28	sein	sein	AUX	VAINF	VerbForm=Inf	27	cop	_	_
+29	bis	bis	ADP	APPR	AdpType=Prep	31	case	_	_
+30	zum	zum	ADP	APPRART	AdpType=Prep|Case=Dat|PronType=Art	31	case	_	_
+31	Rande	Rand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	$.	PunctType=Peri	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Eines Tages, da sie wieder am Brunnen war, kam eine alte Frau daher, die sie um einen Trunk Wasser bat.
+1	Eines	Eines	DET	ART	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Tages	Tag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	$,	PunctType=Comm	8	punct	_	_
+4	da	da	SCONJ	KOUS	_	8	mark	_	_
+5	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+6	wieder	wieder	ADV	ADV	_	8	advmod	_	_
+7	am	am	ADP	APPRART	AdpType=Prep|Case=Dat|PronType=Art	8	case	_	_
+8	Brunnen	Brunnen	NOUN	NN	Gender=Masc|Number=Sing|Person=3	2	ccomp	_	_
+9	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	SpaceAfter=No
+10	,	,	PUNCT	$,	PunctType=Comm	8	punct	_	_
+11	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	eine	eine	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	alte	alt	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	Frau	Frau	NOUN	NN	Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+15	daher	daher	ADV	PROAV	_	11	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	PunctType=Comm	23	punct	_	_
+17	die	die	PRON	PRELS	Case=Acc|Number=Plur|Person=3|PronType=Rel	23	obj	_	_
+18	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	SpacesAfter=\n
+19	um	um	ADP	APPR	AdpType=Prep|Case=Acc	21	case	_	_
+20	einen	einen	DET	ART	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Trunk	Trunk	NOUN	NN	Gender=Masc|Number=Sing|Person=3	23	obj	_	_
+22	Wasser	Wasser	NOUN	NN	Gender=Neut|Number=Sing|Person=3	21	appos	_	_
+23	bat	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl	_	SpaceAfter=No
+24	.	.	PUNCT	$.	PunctType=Peri	11	punct	_	_
+
+# sent_id = 9
+# text = »Gern, gern, mein gutes Mütterchen«, rief das Mädchen, spülte den Krug aus, schöpfte an der klarsten Stelle des Brunnens und hielt den Krug, während die Alte ihren Durst stillte.
+1	»Gern	»Gern	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	PunctType=Comm	1	punct	_	_
+3	gern	gern	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	PunctType=Comm	7	punct	_	_
+5	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+6	gutes	gut	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	Mütterchen«	Mütterchen«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	1	appos	_	SpaceAfter=No
+8	,	,	PUNCT	$,	PunctType=Comm	7	punct	_	_
+9	rief	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	das	das	DET	ART	Case=Nom|Gender=Neut|Number=Sing|PronType=Art	11	det	_	SpacesAfter=\n
+11	Mädchen	Mädchen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	PunctType=Comm	13	punct	_	_
+13	spülte	spülen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+14	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Krug	krug	PROPN	NE	Number=Sing|Person=3	13	obj	_	_
+16	aus	aus	ADP	PTKVZ	PartType=Vbp	13	compound:prt	_	SpaceAfter=No
+17	,	,	PUNCT	$,	PunctType=Comm	18	punct	_	_
+18	schöpfte	schöpfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+19	an	an	ADP	APPR	AdpType=Prep|Case=Dat	22	case	_	_
+20	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	klarsten	klar	ADJ	ADJA	Degree=Sup|Number=Sing	22	amod	_	_
+22	Stelle	Stelle	NOUN	NN	Gender=Fem|Number=Sing|Person=3	18	obl	_	_
+23	des	des	DET	ART	Case=Gen|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
+24	Brunnens	Brunnen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	22	nmod	_	_
+25	und	und	CCONJ	KON	_	26	cc	_	SpacesAfter=\n
+26	hielt	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+27	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Krug	krug	PROPN	NE	Number=Sing|Person=3	26	obj	_	SpaceAfter=No
+29	,	,	PUNCT	$,	PunctType=Comm	35	punct	_	_
+30	während	während	SCONJ	KOUS	_	35	mark	_	_
+31	die	die	DET	ART	Case=Nom|Number=Plur|PronType=Art	32	det	_	_
+32	Alte	alt	NOUN	NN	Gender=Masc|Number=Plur|Person=3	35	nsubj	_	_
+33	ihren	sein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	det	_	_
+34	Durst	Durst	NOUN	NN	Gender=Fem|Number=Sing|Person=3	35	obj	_	_
+35	stillte	stillen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	SpaceAfter=No
+36	.	.	PUNCT	$.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 10
+# text = Nachdem sie getrunken, sagte die Alte, welche, im Vertrauen gesagt, eine Fee war und sich nur so verkleidet hatte, um die Herzensgüte des Mädchens zu prüfen, sie sagte also:
+1	Nachdem	Nachdem	SCONJ	KOUS	_	3	mark	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	getrunken	trinken	ADJ	ADJD	Degree=Pos|Variant=Short	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	PunctType=Comm	5	punct	_	SpacesAfter=\n
+5	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+6	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Alte	Alt	NOUN	NN	Degree=Pos|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	PunctType=Comm	22	punct	_	_
+9	welche	welche	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel	22	obj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	PunctType=Comm	13	punct	_	_
+11	im	im	ADP	APPRART	AdpType=Prep|Case=Dat|PronType=Art	12	case	_	_
+12	Vertrauen	Vertrauen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	13	obl	_	_
+13	gesagt	sagen	VERB	VVPP	Aspect=Perf|VerbForm=Part	22	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	$,	PunctType=Comm	13	punct	_	_
+15	eine	eine	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Fee	unknown	NOUN	NN	Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
+17	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+18	und	und	CCONJ	KON	_	22	cc	_	_
+19	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	_
+20	nur	nur	ADV	ADV	_	21	advmod	_	_
+21	so	so	ADV	ADV	Degree=Pos	22	advmod	_	SpacesAfter=\n
+22	verkleidet	verkleiden	VERB	VVPP	Aspect=Perf|VerbForm=Part	7	acl	_	_
+23	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	SpaceAfter=No
+24	,	,	PUNCT	$,	PunctType=Comm	31	punct	_	_
+25	um	um	SCONJ	KOUI	_	31	mark	_	_
+26	die	die	DET	ART	Case=Acc|Number=Plur|PronType=Art	27	det	_	_
+27	Herzensgüte	Herzensgüte	NOUN	NN	Gender=Masc|Number=Plur|Person=3	31	obj	_	_
+28	des	des	DET	ART	Case=Gen|Gender=Neut|Number=Sing|PronType=Art	29	det	_	_
+29	Mädchens	Mädchen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing|Person=3	27	nmod	_	_
+30	zu	zu	PART	PTKZU	PartType=Inf	31	mark	_	_
+31	prüfen	prüfen	VERB	VVINF	VerbForm=Inf	22	advcl	_	SpaceAfter=No
+32	,	,	PUNCT	$,	PunctType=Comm	34	punct	_	_
+33	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+34	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	_	SpacesAfter=\n
+35	also	also	ADV	ADV	_	34	advmod	_	SpaceAfter=No
+36	:	:	PUNCT	$.	PunctType=Peri	22	punct	_	_
+
+# sent_id = 11
+# text = »Mein Kind, du bist so schön, gut und lieb, daß ich dir mit Vergnügen ein Geschenk machen will.
+1	»Mein	»Mein	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	Kind	Kind	NOUN	NN	Gender=Neut|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	PunctType=Comm	7	punct	_	_
+4	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+5	bist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	so	so	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	schön	schön	ADJ	ADJD	Degree=Pos|Variant=Short	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	PunctType=Comm	7	punct	_	_
+9	gut	gut	ADJ	ADJD	Degree=Pos|Variant=Short	7	conj	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	lieb	lieb	ADJ	ADJD	Degree=Pos|Variant=Short	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	PunctType=Comm	20	punct	_	_
+13	daß	daß	SCONJ	KOUS	_	20	mark	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+15	dir	dir	PRON	PRF	Case=Dat|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	20	iobj	_	_
+16	mit	mit	ADP	APPR	AdpType=Prep|Case=Dat	17	case	_	_
+17	Vergnügen	Vergnügen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	20	obl	_	SpacesAfter=\n
+18	ein	ein	DET	ART	Case=Acc|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Geschenk	Geschenk	NOUN	NN	Gender=Neut|Number=Sing|Person=3	20	obj	_	_
+20	machen	machen	VERB	VVINF	VerbForm=Inf	7	ccomp	_	_
+21	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	20	aux	_	SpaceAfter=No
+22	.	.	PUNCT	$.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 12
+# text = Dies Geschenk besteht darin, daß jedes Wort, das du von nun an sprechen wirst, als eine Blume oder als ein Edelstein aus deinem Munde hervorkommen soll.«
+1	Dies	Dies	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+2	Geschenk	Geschenk	NOUN	NN	Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
+3	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	darin	darin	ADV	PROAV	_	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	PunctType=Comm	28	punct	_	_
+6	daß	daß	SCONJ	KOUS	_	28	mark	_	_
+7	jedes	jede	DET	PIDAT	Case=Nom|Gender=Neut|Number=Sing|Person=3	8	det	_	_
+8	Wort	Wort	NOUN	NN	Gender=Neut|Number=Sing|Person=3	28	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	PunctType=Comm	15	punct	_	_
+10	das	das	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Rel	15	obj	_	_
+11	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	SpacesAfter=\n
+12	von	von	ADP	APPR	AdpType=Prep|Case=Dat	13	case	_	_
+13	nun	nun	ADV	ADV	_	15	obl	_	_
+14	an	an	ADP	APZR	AdpType=Circ	13	case	_	_
+15	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	8	acl	_	_
+16	wirst	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+17	,	,	PUNCT	$,	PunctType=Comm	20	punct	_	_
+18	als	als	CCONJ	KOKOM	ConjType=Comp	20	case	_	_
+19	eine	eine	DET	ART	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Blume	Blume	NOUN	NN	Gender=Fem|Number=Sing|Person=3	15	obl	_	_
+21	oder	oder	CCONJ	KON	_	24	cc	_	_
+22	als	als	CCONJ	KOKOM	ConjType=Comp	24	case	_	_
+23	ein	ein	DET	ART	Case=Acc|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
+24	Edelstein	Edelstein	NOUN	NN	Gender=Neut|Number=Sing|Person=3	20	conj	_	_
+25	aus	aus	ADP	APPR	AdpType=Prep|Case=Dat	27	case	_	_
+26	deinem	dein	DET	ART	Case=Dat|Gender=Masc|Number=Sing|PronType=Art	27	det	_	SpacesAfter=\n
+27	Munde	Mund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	24	nmod	_	_
+28	hervorkommen	hervorkommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+29	soll.«	soll.«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	28	obj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Als sie nun nach Hause kam, zankte sie die Mutter, daß sie so lange ausgeblieben.
+1	Als	Als	SCONJ	KOUS	_	6	mark	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	nun	nun	ADV	ADV	_	6	advmod	_	_
+4	nach	nach	ADP	APPR	AdpType=Prep|Case=Dat	5	case	_	_
+5	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	6	obl	_	_
+6	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	PunctType=Comm	6	punct	_	_
+8	zankte	zanken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+10	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Mutter	Mutter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	PunctType=Comm	17	punct	_	_
+13	daß	daß	SCONJ	KOUS	_	17	mark	_	_
+14	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+15	so	so	ADV	ADV	Degree=Pos	16	advmod	_	_
+16	lange	lange	ADJ	ADJD	Degree=Pos|Variant=Short	17	advmod	_	_
+17	ausgeblieben	ausbleiben	VERB	VVPP	Aspect=Perf|VerbForm=Part	8	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	PunctType=Peri	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = »Ich bitte dich um Verzeihung, meine Mutter«, sagte das Mädchen, »daß ich so spät komme« – und siehe da, wie sie das sagte, kamen aus ihrem Munde zwei Rosen, zwei Perlen und zwei große Diamanten hervor.
+1	»Ich	»Ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dich	dich	PRON	PPER	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+4	um	um	ADP	APPR	AdpType=Prep|Case=Acc	5	case	_	_
+5	Verzeihung	Verzeihung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	PunctType=Comm	8	punct	_	_
+7	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
+8	Mutter«	Mutter«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	PunctType=Comm	10	punct	_	_
+10	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+11	das	das	DET	ART	Case=Nom|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Mädchen	Mädchen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	10	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	PunctType=Comm	21	punct	_	_
+14	»daß	»daß	SCONJ	KOUS	_	21	mark	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+16	so	so	ADV	ADV	Degree=Pos	17	advmod	_	SpacesAfter=\n
+17	spät	spät	ADJ	ADJD	Degree=Pos|Variant=Short	21	advmod	_	_
+18	komme«	komme«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	21	obj	_	_
+19	–	–	PUNCT	$.	PunctType=Peri	18	punct	_	_
+20	und	und	CCONJ	KON	_	21	cc	_	_
+21	siehe	sehen	VERB	VVIMP	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	10	ccomp	_	_
+22	da	da	ADV	ADV	_	21	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	$,	PunctType=Comm	27	punct	_	_
+24	wie	wie	ADV	PWAV	PronType=Int	27	advmod	_	_
+25	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	_
+26	das	das	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	27	obj	_	_
+27	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl	_	SpaceAfter=No
+28	,	,	PUNCT	$,	PunctType=Comm	29	punct	_	_
+29	kamen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	ccomp	_	_
+30	aus	aus	ADP	APPR	AdpType=Prep|Case=Dat	32	case	_	_
+31	ihrem	sein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	det	_	_
+32	Munde	Mund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	29	obl	_	_
+33	zwei	zwei	NUM	CARD	Number=Plur|NumType=Card|Person=3	34	nummod	_	SpacesAfter=\n
+34	Rosen	Rose	NOUN	NN	Gender=Fem|Number=Plur|Person=3	29	nsubj	_	SpaceAfter=No
+35	,	,	PUNCT	$,	PunctType=Comm	37	punct	_	_
+36	zwei	zwei	NUM	CARD	Number=Plur|NumType=Card|Person=3	37	nummod	_	_
+37	Perlen	Perle	NOUN	NN	Gender=Fem|Number=Plur|Person=3	34	conj	_	_
+38	und	und	CCONJ	KON	_	41	cc	_	_
+39	zwei	zwei	NUM	CARD	Number=Plur|NumType=Card|Person=3	41	nummod	_	_
+40	große	groß	ADJ	ADJA	Degree=Pos|Number=Plur	41	amod	_	_
+41	Diamanten	Diamant	NOUN	NN	Gender=Masc|Number=Plur|Person=3	34	conj	_	_
+42	hervor	hervor	ADP	PTKVZ	PartType=Vbp	29	compound:prt	_	SpaceAfter=No
+43	.	.	PUNCT	$.	PunctType=Peri	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = »Was seh ich!« rief die Mutter erstaunt, »ich glaube gar, sie spricht Perlen und Diamanten!
+1	»Was	»Was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Int	4	obj	_	_
+2	seh	seh	PROPN	NE	Person=3	1	flat:name	_	_
+3	ich!«	ich!«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	1	appos	_	_
+4	rief	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Mutter	Mutter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+7	erstaunt	erstaunen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	compound:prt	_	SpaceAfter=No
+8	,	,	PUNCT	$,	PunctType=Comm	10	punct	_	_
+9	»ich	»ich	ADJ	ADJD	Degree=Pos|Variant=Short	10	advmod	_	_
+10	glaube	glauben	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	conj	_	_
+11	gar	gar	ADV	ADV	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	$,	PunctType=Comm	14	punct	_	_
+13	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	spricht	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+15	Perlen	Perle	NOUN	NN	Gender=Fem|Number=Plur|Person=3	14	obj	_	SpacesAfter=\n
+16	und	und	CCONJ	KON	_	17	cc	_	_
+17	Diamanten	Diamant	NOUN	NN	Gender=Masc|Number=Plur|Person=3	15	conj	_	SpaceAfter=No
+18	!	!	PUNCT	$.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 16
+# text = Wie kommt das, mein Kind?« – Es war das erstemal in ihrem Leben, daß sie sie »mein Kind« nannte.
+1	Wie	Wie	ADV	PWAV	PronType=Int	2	advmod	_	_
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
+3	das	das	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	PunctType=Comm	6	punct	_	_
+5	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	Kind?«	Kind?«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	3	appos	_	_
+7	–	–	PUNCT	$.	PunctType=Peri	2	punct	_	_
+8	Es	Es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+9	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+10	das	das	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	_
+11	erstemal	erstemal	ADV	ADV	_	14	advmod	_	_
+12	in	in	ADP	APPR	AdpType=Prep|Case=Dat	14	case	_	_
+13	ihrem	sein	PRON	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	SpacesAfter=\n
+14	Leben	Leben	NOUN	NN	Gender=Neut|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	$,	PunctType=Comm	21	punct	_	_
+16	daß	daß	SCONJ	KOUS	_	21	mark	_	_
+17	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
+18	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
+19	»mein	»mein	ADJ	ADJD	Degree=Pos|Variant=Short	21	advmod	_	_
+20	Kind«	Kind«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	21	obj	_	_
+21	nannte	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	csubj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	PunctType=Peri	14	punct	_	_
+
+# sent_id = 17
+# text = – Das gute Mädchen erzählte ganz einfach und aufrichtig, was ihr begegnet war, und während sie erzählte, quollen eitel Perlen und Diamanten aus ihrem Munde.
+1	–	–	PUNCT	$.	PunctType=Peri	5	obj	_	_
+2	Das	Das	DET	ART	Case=Nom|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+3	gute	gut	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	Mädchen	Mädchen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	5	nsubj	_	_
+5	erzählte	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	ganz	ganz	ADV	ADV	_	7	advmod	_	SpacesAfter=\n
+7	einfach	einfach	ADJ	ADJD	Degree=Pos|Variant=Short	5	advmod	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	aufrichtig	aufrichtig	ADJ	ADJD	Degree=Pos|Variant=Short	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	PunctType=Comm	13	punct	_	_
+11	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Int	13	obj	_	_
+12	ihr	ihr	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nsubj:pass	_	_
+13	begegnet	begegnen	VERB	VVPP	Aspect=Perf|VerbForm=Part	5	acl	_	_
+14	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	SpaceAfter=No
+15	,	,	PUNCT	$,	PunctType=Comm	21	punct	_	_
+16	und	und	CCONJ	KON	_	21	cc	_	_
+17	während	während	SCONJ	KOUS	_	19	mark	_	_
+18	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	erzählte	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	SpaceAfter=No
+20	,	,	PUNCT	$,	PunctType=Comm	19	punct	_	SpacesAfter=\n
+21	quollen	quollen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+22	eitel	eitel	ADJ	ADJD	Degree=Pos|Variant=Short	21	advmod	_	_
+23	Perlen	Perle	NOUN	NN	Gender=Fem|Number=Plur|Person=3	21	obj	_	_
+24	und	und	CCONJ	KON	_	25	cc	_	_
+25	Diamanten	Diamant	NOUN	NN	Gender=Masc|Number=Plur|Person=3	23	conj	_	_
+26	aus	aus	ADP	APPR	AdpType=Prep|Case=Dat	28	case	_	_
+27	ihrem	sein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
+28	Munde	Mund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	$.	PunctType=Peri	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = »Das ist ja wunderbar«, rief die Mutter, »da muß gleich auch meine Tochter hin.
+1	»Das	»Das	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ja	ja	ADV	ADV	_	4	advmod	_	_
+4	wunderbar«	wunderbar«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	PunctType=Comm	6	punct	_	_
+6	rief	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+7	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Mutter	Mutter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	PunctType=Comm	15	punct	_	_
+10	»da	»da	PROPN	NE	Person=3	15	nsubj	_	_
+11	muß	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	15	aux	_	_
+12	gleich	gleich	ADV	ADV	_	15	advmod	_	_
+13	auch	auch	ADV	ADV	_	15	advmod	_	_
+14	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	det	_	_
+15	Tochter	Tochter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	4	appos	_	SpacesAfter=\n
+16	hin	hin	ADP	PTKVZ	PartType=Vbp	15	case	_	SpaceAfter=No
+17	.	.	PUNCT	$.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 19
+# text = Sieh mal, Suse, was da aus dem Munde deiner Schwester hervorkommt!
+1	Sieh	sehen	VERB	VVIMP	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
+2	mal	mal	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	$,	PunctType=Comm	4	punct	_	_
+4	Suse	Suse	PROPN	NE	Gender=Fem|Number=Sing|Person=3	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	$,	PunctType=Comm	13	punct	_	_
+6	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Rel	13	nsubj	_	_
+7	da	da	ADV	ADV	_	13	advmod	_	_
+8	aus	aus	ADP	APPR	AdpType=Prep|Case=Dat	10	case	_	_
+9	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Munde	Mund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	obl	_	_
+11	deiner	dein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	12	det	_	_
+12	Schwester	Schwester	NOUN	NN	Gender=Fem|Number=Sing|Person=3	13	obj	_	_
+13	hervorkommt	hervorkommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No
+14	!	!	PUNCT	$.	PunctType=Peri	1	punct	_	_
+
+# sent_id = 20
+# text = Würde dir eine solche Eigenschaft nicht besser passen?
+1	Würde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpacesAfter=\n
+2	dir	dir	PRON	PRF	Case=Dat|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	8	obj	_	_
+3	eine	eine	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	solche	solch	ADJ	PIDAT	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	amod	_	_
+5	Eigenschaft	Eigenschaft	NOUN	NN	Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+7	besser	gut	ADJ	ADJD	Degree=Cmp|Variant=Short	8	advmod	_	_
+8	passen	passen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	$.	PunctType=Peri	8	punct	_	_
+
+# sent_id = 21
+# text = Du darfst nur an den Brunnen gehen und Wasser schöpfen, und wenn ein altes Weib kommt und dich um einen Trunk bittet, höflich zu trinken geben.«
+1	Du	Du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	darfst	darfst	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nur	nur	ADV	ADV	_	6	advmod	_	_
+4	an	an	ADP	APPR	AdpType=Prep|Case=Acc	6	case	_	_
+5	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Brunnen	Brunnen	NOUN	NN	Gender=Masc|Number=Sing|Person=3	7	obl	_	SpacesAfter=\n
+7	gehen	gehen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	Wasser	Wasser	NOUN	NN	Gender=Neut|Number=Sing|Person=3	10	obj	_	_
+10	schöpfen	schöpfen	VERB	VVINF	VerbForm=Inf	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	PunctType=Comm	17	punct	_	_
+12	und	und	CCONJ	KON	_	17	cc	_	_
+13	wenn	wenn	SCONJ	KOUS	_	17	mark	_	_
+14	ein	ein	DET	ART	Case=Nom|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+15	altes	alt	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	Weib	Weib	NOUN	NN	Person=3	17	nsubj	_	_
+17	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+18	und	und	CCONJ	KON	_	23	cc	_	_
+19	dich	dich	PRON	PPER	Case=Acc|Number=Sing|Person=2|PronType=Prs	23	obj	_	_
+20	um	um	ADP	APPR	AdpType=Prep|Case=Acc	22	case	_	_
+21	einen	einen	DET	ART	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det	_	SpacesAfter=\n
+22	Trunk	Trunk	NOUN	NN	Gender=Masc|Number=Sing|Person=3	23	obl	_	_
+23	bittet	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	SpaceAfter=No
+24	,	,	PUNCT	$,	PunctType=Comm	27	punct	_	_
+25	höflich	höflich	ADJ	ADJD	Degree=Pos|Variant=Short	27	advmod	_	_
+26	zu	zu	PART	PTKZU	PartType=Inf	27	mark	_	_
+27	trinken	trinken	ADJ	ADJA	Degree=Pos|Number=Sing	23	xcomp	_	_
+28	geben.«	geben.«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	23	obj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = »Wahrhaftig«, antwortete die ältere, »das würde sich schön für mich schicken, an den Brunnen zu gehen!«
+1	»Wahrhaftig«	»Wahrhaftig«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	$,	PunctType=Comm	3	punct	_	_
+3	antwortete	antworten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	parataxis	_	_
+4	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+5	ältere	alt	ADJ	ADJA	Degree=Cmp|Number=Plur	13	amod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	PunctType=Comm	13	punct	_	_
+7	»das	»das	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	13	nsubj	_	_
+8	würde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+10	schön	schön	ADJ	ADJD	Degree=Pos|Variant=Short	13	advmod	_	_
+11	für	für	ADP	APPR	AdpType=Prep|Case=Acc	12	case	_	_
+12	mich	mich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	13	obl	_	_
+13	schicken	schicken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	$,	PunctType=Comm	13	punct	_	SpacesAfter=\n
+15	an	an	ADP	APPR	AdpType=Prep|Case=Acc	17	case	_	_
+16	den	den	DET	ART	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Brunnen	Brunnen	NOUN	NN	Gender=Masc|Number=Sing|Person=3	13	obl	_	_
+18	zu	zu	ADP	APPR	AdpType=Prep|Case=Dat	19	case	_	_
+19	gehen!«	gehen!«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	17	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = »Aber ich will es«, schrie die Mutter, »und du gehst sogleich.«
+1	»Aber	»Aber	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
+4	es«	es«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	PunctType=Comm	6	punct	_	_
+6	schrie	schrie	X	FM	Foreign=Yes|Person=3	4	appos	_	_
+7	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Mutter	Mutter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	6	appos	_	SpaceAfter=No
+9	,	,	PUNCT	$,	PunctType=Comm	13	punct	_	_
+10	»und	»und	ADJ	ADJD	Degree=Pos|Variant=Short	12	advmod	_	_
+11	du	du	ADJ	ADJD	Degree=Pos|Variant=Short	12	advmod	_	_
+12	gehst	gehen	ADJ	ADJD	Degree=Pos|Variant=Short	13	amod	_	_
+13	sogleich.«	sogleich.«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	8	appos	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = So ging sie denn, aber immer brummend, und die schönste silberne Kanne hatte sie mitgenommen.
+1	So	so	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	denn	denn	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	PunctType=Comm	8	punct	_	_
+6	aber	aber	CCONJ	KON	_	8	cc	_	_
+7	immer	immer	ADV	ADV	_	8	advmod	_	_
+8	brummend	brummen	ADJ	ADJD	Degree=Pos|Variant=Short	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	PunctType=Comm	17	punct	_	_
+10	und	und	CCONJ	KON	_	17	cc	_	_
+11	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	schönste	schön	ADJ	ADJA	Degree=Sup|Gender=Fem|Number=Sing	14	amod	_	_
+13	silberne	silbern	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	Kanne	Kanne	NOUN	NN	Gender=Fem|Number=Sing|Person=3	17	obj	_	_
+15	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpacesAfter=\n
+16	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	mitgenommen	mitnehmen	ADJ	ADJD	Degree=Pos|Variant=Short	8	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 25
+# text = Am Brunnen stehend, sah sie eine prachtvoll geputzte Dame aus dem Walde herankommen, die sie um einen Trunk Wasser bat.
+1	Am	Am	ADP	APPRART	AdpType=Prep|Case=Dat|PronType=Art	2	case	_	_
+2	Brunnen	Brunnen	NOUN	NN	Gender=Masc|Number=Sing|Person=3	3	obl	_	_
+3	stehend	stehen	ADJ	ADJD	Degree=Pos|Variant=Short	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	PunctType=Comm	3	punct	_	_
+5	sah	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	eine	eine	DET	ART	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	prachtvoll	prachtvoll	ADJ	ADJD	Degree=Pos|Variant=Short	9	advmod	_	_
+9	geputzte	putzen	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	Dame	Dame	NOUN	NN	Gender=Fem|Number=Sing|Person=3	14	obj	_	_
+11	aus	aus	ADP	APPR	AdpType=Prep|Case=Dat	13	case	_	SpacesAfter=\n
+12	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Walde	Wald	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+14	herankommen	herankommen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	$,	PunctType=Comm	22	punct	_	_
+16	die	die	PRON	PRELS	Case=Acc|Number=Plur|Person=3|PronType=Rel	22	obj	_	_
+17	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+18	um	um	ADP	APPR	AdpType=Prep|Case=Acc	20	case	_	_
+19	einen	einen	DET	ART	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Trunk	Trunk	NOUN	NN	Gender=Masc|Number=Sing|Person=3	22	obj	_	_
+21	Wasser	Wasser	NOUN	NN	Gender=Neut|Number=Sing|Person=3	20	appos	_	_
+22	bat	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl	_	SpaceAfter=No
+23	.	.	PUNCT	$.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 26
+# text = Es war das, wie man leicht errät, dieselbe Fee, die ihrer guten Schwester erschienen war und welche jetzt in Gestalt einer Prinzessin auftrat, um zu sehen, wie weit die Unart der bösen gehen werde.
+1	Es	Es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	das	das	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	PunctType=Comm	8	punct	_	_
+5	wie	wie	ADV	PWAV	PronType=Int	8	advmod	_	_
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|Person=3|PronType=Ind,Neg,Tot	8	nsubj	_	SpacesAfter=\n
+7	leicht	leicht	ADJ	ADJD	Degree=Pos|Variant=Short	8	advmod	_	_
+8	errät	erraten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	PunctType=Comm	11	punct	_	_
+10	dieselbe	derselbe	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	Fee	unknown	NOUN	NN	Gender=Fem|Number=Sing|Person=3	3	appos	_	SpaceAfter=No
+12	,	,	PUNCT	$,	PunctType=Comm	17	punct	_	_
+13	die	die	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel	17	nsubj:pass	_	_
+14	ihrer	sein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+15	guten	gut	ADJ	ADJA	Degree=Pos|Number=Sing	16	amod	_	_
+16	Schwester	Schwester	NOUN	NN	Gender=Fem|Number=Sing|Person=3	17	obj	_	_
+17	erschienen	erscheinen	VERB	VVPP	Aspect=Perf|VerbForm=Part	11	acl	_	_
+18	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+19	und	und	CCONJ	KON	_	26	cc	_	SpacesAfter=\n
+20	welche	welche	PRON	PWS	Case=Nom|Number=Plur|Person=3|PronType=Int	26	obj	_	_
+21	jetzt	jetzt	ADV	ADV	_	26	advmod	_	_
+22	in	in	ADP	APPR	AdpType=Prep|Case=Dat	23	case	_	_
+23	Gestalt	Gestalt	NOUN	NN	Gender=Fem|Number=Sing|Person=3	26	obl	_	_
+24	einer	einer	DET	ART	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Prinzessin	Prinzessin	NOUN	NN	Gender=Fem|Number=Sing|Person=3	23	nmod	_	_
+26	auftrat	auftreten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	SpaceAfter=No
+27	,	,	PUNCT	$,	PunctType=Comm	30	punct	_	_
+28	um	um	SCONJ	KOUI	_	30	mark	_	_
+29	zu	zu	PART	PTKZU	PartType=Inf	30	mark	_	_
+30	sehen	sehen	VERB	VVINF	VerbForm=Inf	26	advcl	_	SpaceAfter=No
+31	,	,	PUNCT	$,	PunctType=Comm	38	punct	_	_
+32	wie	wie	ADV	PWAV	PronType=Int	33	advmod	_	_
+33	weit	weit	ADJ	ADJD	Degree=Pos|Variant=Short	38	advmod	_	_
+34	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	35	det	_	SpacesAfter=\n
+35	Unart	Unart	NOUN	NN	Gender=Fem|Number=Sing|Person=3	38	nsubj	_	_
+36	der	der	DET	ART	Case=Gen|Number=Plur|PronType=Art	37	det	_	_
+37	bösen	böse	ADJ	ADJA	Degree=Pos|Number=Plur	35	nmod	_	_
+38	gehen	gehen	VERB	VVINF	VerbForm=Inf	30	ccomp	_	_
+39	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	SpaceAfter=No
+40	.	.	PUNCT	$.	PunctType=Peri	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = Diese antwortete, wie zu erwarten stand:
+1	Diese	Diese	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+2	antwortete	antworten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	PunctType=Comm	6	punct	_	_
+4	wie	wie	ADV	PWAV	PronType=Int	6	advmod	_	_
+5	zu	zu	PART	PTKZU	PartType=Inf	6	mark	_	_
+6	erwarten	erwarten	VERB	VVINF	VerbForm=Inf	7	acl	_	_
+7	stand	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+8	:	:	PUNCT	$.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 28
+# text = »Bin ich deshalb hierhergekommen, um Euch zu bedienen?
+1	»Bin	»Bin	ADV	ADV	_	4	advmod	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	deshalb	deshalb	ADV	PROAV	_	4	advmod	_	_
+4	hierhergekommen	hierhergekommen	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	PunctType=Comm	9	punct	_	_
+6	um	um	SCONJ	KOUI	_	9	mark	_	SpacesAfter=\n
+7	Euch	Euch	PRON	PPER	Case=Dat|Number=Plur|Person=2|PronType=Prs	9	obj	_	_
+8	zu	zu	PART	PTKZU	PartType=Inf	9	mark	_	_
+9	bedienen	bedienen	VERB	VVINF	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+10	?	?	PUNCT	$.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 29
+# text = Freilich, man nimmt silberne Krüge ganz besonders für die fremde Frau mit!
+1	Freilich	Freilich	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	PunctType=Comm	1	punct	_	_
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|Person=3|PronType=Ind,Neg,Tot	4	nsubj	_	_
+4	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	silberne	silbern	ADJ	ADJA	Degree=Pos|Number=Plur	6	amod	_	_
+6	Krüge	Krüge	NOUN	NN	Gender=Masc|Number=Plur|Person=3	4	obj	_	_
+7	ganz	ganz	ADV	ADV	_	8	advmod	_	_
+8	besonders	besonders	ADV	ADV	_	4	advmod	_	_
+9	für	für	ADP	APPR	AdpType=Prep|Case=Acc	12	case	_	_
+10	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpacesAfter=\n
+11	fremde	fremd	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	Frau	Frau	NOUN	NN	Gender=Fem|Number=Sing|Person=3	6	nmod	_	_
+13	mit	mit	ADP	PTKVZ	PartType=Vbp	4	compound:prt	_	SpaceAfter=No
+14	!	!	PUNCT	$.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 30
+# text = Wie?
+1	Wie	Wie	ADV	PWAV	PronType=Int	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	$.	PunctType=Peri	1	punct	_	_
+
+# sent_id = 31
+# text = Meinetwegen trinket, wenn Ihr wollt.
+1	Meinetwegen	meinetwegen	ADV	PROAV	_	2	advmod	_	_
+2	trinket	trinket	X	FM	Foreign=Yes|Person=3	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	PunctType=Comm	6	punct	_	_
+4	wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
+5	Ihr	ihr	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	det	_	_
+6	wollt	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbType=Mod	2	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	$.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 32
+# text = Es ist Wasser genug da.«
+1	Es	Es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	Wasser	Wasser	NOUN	NN	Gender=Neut|Number=Sing|Person=3	5	nsubj	_	SpacesAfter=\n
+4	genug	genug	DET	PIAT	Person=3|PronType=Ind,Neg,Tot	5	det	_	_
+5	da.«	da.«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = »Ihr seid nicht höflich, mein Kind«, sagte die Fee gelassen.
+1	»Ihr	»Ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	seid	sein	AUX	VAIMP	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	4	cop	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+4	höflich	höflich	ADJ	ADJD	Degree=Pos|Variant=Short	12	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	$,	PunctType=Comm	7	punct	_	_
+6	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+7	Kind«	Kind«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	1	appos	_	SpaceAfter=No
+8	,	,	PUNCT	$,	PunctType=Comm	9	punct	_	_
+9	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	_
+10	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Fee	unknown	NOUN	NN	Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+12	gelassen	lassen	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	PunctType=Peri	12	punct	_	_
+
+# sent_id = 34
+# text = – »Nun denn, weil Ihr so wenig zuvorkommend seid, beschenke ich Euch mit der Gabe, daß jedes Wort, das Ihr sprechet, aus Eurem Munde als Schlange oder Kröte hervorkomme.«
+1	–	–	PUNCT	$.	PunctType=Peri	0	root	_	_
+2	»Nun	»Nun	ADV	ADV	_	1	advmod	_	_
+3	denn	denn	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	PunctType=Comm	9	punct	_	SpacesAfter=\n
+5	weil	weil	SCONJ	KOUS	_	9	mark	_	_
+6	Ihr	ihr	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	_
+7	so	so	ADV	ADV	Degree=Pos	8	advmod	_	_
+8	wenig	wenig	ADV	ADV	_	9	advmod	_	_
+9	zuvorkommend	zuvorkommen	ADJ	ADJD	Degree=Pos|Variant=Short	1	ccomp	_	_
+10	seid	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+11	,	,	PUNCT	$,	PunctType=Comm	9	punct	_	_
+12	beschenke	beschenken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	csubj	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+14	Euch	Euch	PRON	PPER	Case=Dat|Number=Plur|Person=2|PronType=Prs	12	obj	_	_
+15	mit	mit	ADP	APPR	AdpType=Prep|Case=Dat	17	case	_	_
+16	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Gabe	Gabe	NOUN	NN	Gender=Fem|Number=Sing|Person=3	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	$,	PunctType=Comm	21	punct	_	_
+19	daß	daß	SCONJ	KOUS	_	21	mark	_	SpacesAfter=\n
+20	jedes	jede	DET	PIDAT	Case=Nom|Gender=Neut|Number=Sing|Person=3	21	det	_	_
+21	Wort	Wort	NOUN	NN	Gender=Neut|Number=Sing|Person=3	17	appos	_	SpaceAfter=No
+22	,	,	PUNCT	$,	PunctType=Comm	25	punct	_	_
+23	das	das	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Rel	25	nsubj	_	_
+24	Ihr	ihr	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	25	obj	_	_
+25	sprechet	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	acl	_	SpaceAfter=No
+26	,	,	PUNCT	$,	PunctType=Comm	25	punct	_	_
+27	aus	aus	ADP	APPR	AdpType=Prep|Case=Dat	28	case	_	_
+28	Eurem	euer	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	21	nmod	_	_
+29	Munde	Mund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	28	nmod	_	_
+30	als	als	CCONJ	KOKOM	ConjType=Comp	31	case	_	_
+31	Schlange	Schlange	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	28	obl	_	_
+32	oder	oder	CCONJ	KON	_	33	cc	_	_
+33	Kröte	Kröte	NOUN	NN	Gender=Fem|Number=Plur|Person=3	31	conj	_	SpacesAfter=\n
+34	hervorkomme.«	hervorkomme.«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	33	appos	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 35
+# text = Sobald ihre Mutter sie erblickte, rief sie ihr entgegen:
+1	Sobald	Sobald	SCONJ	KOUS	_	5	mark	_	_
+2	ihre	sein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	Mutter	Mutter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	5	obj	_	_
+4	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	erblickte	erblicken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	$,	PunctType=Comm	5	punct	_	_
+7	rief	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+9	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+10	entgegen	entgegen	ADP	PTKVZ	PartType=Vbp	7	compound:prt	_	SpaceAfter=No
+11	:	:	PUNCT	$.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 36
+# text = »Nun, meine Tochter, wie ist's?«
+1	»Nun	»Nun	ADV	ADV	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	PunctType=Comm	4	punct	_	_
+3	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+4	Tochter	Tochter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	PunctType=Comm	9	punct	_	SpacesAfter=\n
+6	wie	wie	ADV	PWAV	PronType=Int	9	advmod	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+8	's	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+9	?«	?«	PUNCT	$.	PunctType=Peri	4	acl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 37
+# text = »Nun, meine Mutter, so ist's!« antwortete die Tochter und warf zwei Schlangen und zwei Kröten aus.
+1	»Nun	»Nun	ADV	ADV	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	PunctType=Comm	4	punct	_	_
+3	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+4	Mutter	Mutter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	PunctType=Comm	9	punct	_	_
+6	so	so	ADV	ADV	Degree=Pos	9	advmod	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+8	's!«	's!«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	9	obj	_	_
+9	antwortete	antworten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+10	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Tochter	Tochter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	warf	werfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+14	zwei	zwei	NUM	CARD	Number=Plur|NumType=Card|Person=3	15	nummod	_	_
+15	Schlangen	Schlange	NOUN	NN	Gender=Fem|Number=Plur|Person=3	13	obj	_	SpacesAfter=\n
+16	und	und	CCONJ	KON	_	18	cc	_	_
+17	zwei	zwei	NUM	CARD	Number=Plur|NumType=Card|Person=3	18	nummod	_	_
+18	Kröten	unknown	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur|Person=3	15	conj	_	_
+19	aus	aus	ADP	PTKVZ	PartType=Vbp	13	compound:prt	_	SpaceAfter=No
+20	.	.	PUNCT	$.	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 38
+# text = »Himmel!
+1	»Himmel	»Himmel	PROPN	NE	Number=Sing|Person=3	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	$.	PunctType=Peri	1	punct	_	_
+
+# sent_id = 39
+# text = Was sehe ich?« schrie die Mutter.
+1	Was	Was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Int	2	obj	_	_
+2	sehe	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+4	?«	?«	PUNCT	$.	PunctType=Peri	2	punct	_	_
+5	schrie	schrie	X	FM	Foreign=Yes|Person=3	2	xcomp	_	_
+6	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Mutter	Mutter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 40
+# text = »An all dem ist deine Schwester schuld, sie soll es büßen!«
+1	»An	»An	ADP	APPR	AdpType=Prep|Case=Dat	3	case	_	_
+2	all	all	DET	PIDAT	_	3	det	_	_
+3	dem	dem	PRON	PDS	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Dem	7	obl	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	deine	dein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	6	det	_	_
+6	Schwester	Schwester	NOUN	NN	Gender=Fem|Number=Sing|Person=3	7	nsubj	_	SpacesAfter=\n
+7	schuld	schuld	ADJ	ADJD	Degree=Pos|Variant=Short	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	PunctType=Comm	12	punct	_	_
+9	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	12	aux	_	_
+11	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	det	_	_
+12	büßen!«	büßen!«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	7	conj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 41
+# text = Sie lief, um die jüngere durchzuprügeln.
+1	Sie	Sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	lief	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	PunctType=Comm	7	punct	_	_
+4	um	um	SCONJ	KOUI	_	7	case	_	_
+5	die	die	DET	ART	Case=Acc|Number=Plur|PronType=Art	7	det	_	_
+6	jüngere	jung	ADJ	ADJA	Degree=Cmp|Number=Plur	7	amod	_	_
+7	durchzuprügeln	durchzuprügeln	NOUN	NN	Gender=Fem|Number=Plur|Person=3	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	$.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 42
+# text = Das arme Mädchen ergriff die Flucht und versteckte sich im Walde.
+1	Das	Das	DET	ART	Case=Nom|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	arme	arm	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	Mädchen	Mädchen	NOUN	NN	Gender=Neut|Number=Sing|Person=3	4	obj	_	_
+4	ergriff	ergreifen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	die	die	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Flucht	Flucht	NOUN	NN	Gender=Fem|Number=Sing|Person=3	4	nsubj	_	SpacesAfter=\n
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	versteckte	verstecken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
+10	im	im	ADP	APPRART	AdpType=Prep|Case=Dat|PronType=Art	11	case	_	_
+11	Walde	Wald	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 43
+# text = Da kam der Königssohn von der Jagd zurück, sah sie, und weil sie so schön war, fragte er sie, warum sie so allein im Walde sei und warum sie so weine.
+1	Da	Da	ADV	ADV	_	2	advmod	_	_
+2	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Königssohn	Königssohn	NOUN	NN	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+5	von	von	ADP	APPR	AdpType=Prep|Case=Dat	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Jagd	Jagd	NOUN	NN	Gender=Fem|Number=Sing|Person=3	4	nmod	_	_
+8	zurück	zurück	ADP	PTKVZ	PartType=Vbp	2	compound:prt	_	SpaceAfter=No
+9	,	,	PUNCT	$,	PunctType=Comm	10	punct	_	_
+10	sah	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpacesAfter=\n
+11	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	PunctType=Comm	20	punct	_	_
+13	und	und	CCONJ	KON	_	20	cc	_	_
+14	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+15	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+16	so	so	ADV	ADV	Degree=Pos	17	advmod	_	_
+17	schön	schön	ADJ	ADJD	Degree=Pos|Variant=Short	20	ccomp	_	_
+18	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	SpaceAfter=No
+19	,	,	PUNCT	$,	PunctType=Comm	17	punct	_	_
+20	fragte	fragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+21	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+22	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	PunctType=Comm	29	punct	_	_
+24	warum	warum	ADV	PWAV	PronType=Int	29	advmod	_	_
+25	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+26	so	so	ADV	ADV	Degree=Pos	27	advmod	_	_
+27	allein	allein	ADV	ADV	_	29	advmod	_	_
+28	im	im	ADP	APPRART	AdpType=Prep|Case=Dat|PronType=Art	29	case	_	_
+29	Walde	Wald	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	20	ccomp	_	SpacesAfter=\n
+30	sei	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+31	und	und	CCONJ	KON	_	35	cc	_	_
+32	warum	warum	ADV	PWAV	PronType=Int	35	advmod	_	_
+33	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	so	so	ADV	ADV	Degree=Pos	35	advmod	_	_
+35	weine	wein	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	SpaceAfter=No
+36	.	.	PUNCT	$.	PunctType=Peri	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 44
+# text = »Ach, mein Prinz«, antwortete sie, »meine Mutter hat mich aus dem Hause gejagt.«
+1	»Ach	»Ach	INTJ	ITJ	_	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	$,	PunctType=Comm	4	punct	_	_
+3	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+4	Prinz«	Prinz«	NOUN	NN	Gender=Fem|Number=Sing|Person=3	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	PunctType=Comm	4	punct	_	_
+6	antwortete	antworten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	PunctType=Comm	16	punct	_	_
+9	»meine	»mein	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	Mutter	Mutter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_
+11	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+12	mich	mich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+13	aus	aus	ADP	APPR	AdpType=Prep|Case=Dat	15	case	_	_
+14	dem	dem	DET	ART	Case=Dat|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	16	obl	_	_
+16	gejagt	jagen	VERB	VVPP	Aspect=Perf|VerbForm=Part	6	conj	_	SpaceAfter=No
+17	.«	.«	PUNCT	$.	PunctType=Peri	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 45
+# text = Der Prinz, der aus ihrem Munde ein halbes Dutzend Perlen und Diamanten kommen sah, bat sie um Erklärung dieser schönen Sonderbarkeit.
+1	Der	Der	DET	ART	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Prinz	Prinz	NOUN	NN	Gender=Masc|Number=Sing|Person=3	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	PunctType=Comm	15	punct	_	_
+4	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel	15	nsubj	_	_
+5	aus	aus	ADP	APPR	AdpType=Prep|Case=Dat	7	case	_	_
+6	ihrem	sein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	Munde	Mund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	15	obl	_	_
+8	ein	ein	DET	ART	Case=Acc|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+9	halbes	halb	ADJ	ADJA	Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	Dutzend	Dutzend	NOUN	NN	Gender=Neut|Number=Sing|Person=3	11	amod	_	_
+11	Perlen	Perle	NOUN	NN	Gender=Fem|Number=Plur|Person=3	15	obj	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	Diamanten	Diamant	NOUN	NN	Gender=Masc|Number=Plur|Person=3	11	conj	_	_
+14	kommen	kommen	VERB	VVINF	VerbForm=Inf	15	xcomp	_	SpacesAfter=\n
+15	sah	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	SpaceAfter=No
+16	,	,	PUNCT	$,	PunctType=Comm	15	punct	_	_
+17	bat	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	um	um	ADP	APPR	AdpType=Prep|Case=Acc	20	case	_	_
+20	Erklärung	Erklärung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	17	obl	_	_
+21	dieser	dies	DET	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+22	schönen	schön	ADJ	ADJA	Degree=Pos|Number=Sing	23	amod	_	_
+23	Sonderbarkeit	Sonderbarkeit	NOUN	NN	Gender=Fem|Number=Sing|Person=3	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	$.	PunctType=Peri	17	punct	_	_
+
+# sent_id = 46
+# text = Sie erzählte und erklärte ihm, worauf er sich sogleich in sie verliebte, und bedenkend, daß eine solche Gabe mehr wert sei als irgendeine Mitgift irgendeiner Königstochter, nahm er sie mit heim in seinen Palast und heiratete sie.
+1	Sie	Sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	erzählte	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	SpacesAfter=\n
+4	erklärte	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	ihm	ihm	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	PunctType=Comm	13	punct	_	_
+7	worauf	worauf	ADV	PWAV	PronType=Int	13	advmod	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+10	sogleich	sogleich	ADV	ADV	_	13	advmod	_	_
+11	in	in	ADP	APPR	AdpType=Prep|Case=Acc	12	case	_	_
+12	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obl	_	_
+13	verliebte	verlieben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	PunctType=Comm	16	punct	_	_
+15	und	und	CCONJ	KON	_	16	cc	_	_
+16	bedenkend	bedenken	ADJ	ADJD	Degree=Pos|Variant=Short	4	conj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	PunctType=Comm	23	punct	_	_
+18	daß	daß	SCONJ	KOUS	_	23	mark	_	SpacesAfter=\n
+19	eine	eine	DET	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	solche	solch	ADJ	PIDAT	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	amod	_	_
+21	Gabe	Gabe	NOUN	NN	Gender=Fem|Number=Sing|Person=3	23	nsubj	_	_
+22	mehr	mehr	ADV	ADV	Degree=Cmp	23	advmod	_	_
+23	wert	wert	ADJ	ADJD	Degree=Pos|Variant=Short	16	ccomp	_	_
+24	sei	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+25	als	als	CCONJ	KOKOM	ConjType=Comp	27	case	_	_
+26	irgendeine	irgendeine	ADJ	ADJA	_	27	amod	_	_
+27	Mitgift	Mitgift	NOUN	NN	Gender=Masc|Number=Sing|Person=3	23	obl	_	_
+28	irgendeiner	irgendein	DET	PIAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Ind,Neg,Tot	29	det	_	SpacesAfter=\n
+29	Königstochter	Königstochter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	$,	PunctType=Comm	31	punct	_	_
+31	nahm	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	_
+32	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+33	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+34	mit	mit	ADP	APPR	AdpType=Prep|Case=Dat	35	case	_	_
+35	heim	heim	PROPN	NE	Person=3	31	obl	_	_
+36	in	in	ADP	APPR	AdpType=Prep|Case=Dat	38	case	_	_
+37	seinen	sein	PRON	PPOSAT	Case=Dat|Number=Plur|Person=3|Poss=Yes|PronType=Prs	38	det	_	_
+38	Palast	Palast	NOUN	NN	Gender=Fem|Number=Sing|Person=3	31	obl	_	_
+39	und	und	CCONJ	KON	_	40	cc	_	_
+40	heiratete	heiraten	ADJ	ADJA	Degree=Pos|Gender=Fem|Number=Sing	38	conj	_	_
+41	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obj	_	SpaceAfter=No
+42	.	.	PUNCT	$.	PunctType=Peri	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 47
+# text = Ihre Schwester, die durch die Gabe, Schlangen und Kröten zu sprechen, nicht gewonnen hatte und in deren Umgebung es immer unangenehmer wurde, überwarf sich zuletzt auch mit der Mutter, die sie aus dem Hause jagte.
+1	Ihre	sein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	Schwester	Schwester	NOUN	NN	Gender=Fem|Number=Sing|Person=3	27	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	PunctType=Comm	16	punct	_	_
+4	die	die	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel	16	nsubj	_	_
+5	durch	durch	ADP	APPR	AdpType=Prep|Case=Acc	7	case	_	_
+6	die	die	DET	ART	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Gabe	Gabe	NOUN	NN	Gender=Fem|Number=Sing|Person=3	13	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	PunctType=Comm	9	punct	_	_
+9	Schlangen	Schlange	NOUN	NN	Gender=Fem|Number=Plur|Person=3	7	conj	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	Kröten	unknown	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur|Person=3	7	conj	_	_
+12	zu	zu	PART	PTKZU	PartType=Inf	13	mark	_	_
+13	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	$,	PunctType=Comm	13	punct	_	_
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	SpacesAfter=\n
+16	gewonnen	gewinnen	VERB	VVPP	Aspect=Perf|VerbForm=Part	2	acl	_	_
+17	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+18	und	und	CCONJ	KON	_	25	cc	_	_
+19	in	in	ADP	APPR	AdpType=Prep|Case=Dat	21	case	_	_
+20	deren	deren	DET	PDAT	PronType=Dem	21	det	_	_
+21	Umgebung	Umgebung	NOUN	NN	Gender=Fem|Number=Sing|Person=3	25	obl	_	_
+22	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+23	immer	immer	ADV	ADV	_	24	advmod	_	_
+24	unangenehmer	unangenehm	ADJ	ADJA	Case=Gen|Degree=Pos|Number=Plur	25	nsubj	_	_
+25	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	SpaceAfter=No
+26	,	,	PUNCT	$,	PunctType=Comm	16	punct	_	_
+27	überwarf	überwerfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpacesAfter=\n
+28	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	27	expl:pv	_	_
+29	zuletzt	zuletzt	ADV	ADV	_	27	advmod	_	_
+30	auch	auch	ADV	ADV	_	33	advmod	_	_
+31	mit	mit	ADP	APPR	AdpType=Prep|Case=Dat	33	case	_	_
+32	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Mutter	Mutter	NOUN	NN	Gender=Fem|Number=Sing|Person=3	27	obl	_	SpaceAfter=No
+34	,	,	PUNCT	$,	PunctType=Comm	36	punct	_	_
+35	die	die	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel	36	nsubj	_	_
+36	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	appos	_	_
+37	aus	aus	ADP	APPR	AdpType=Prep|Case=Dat	39	case	_	_
+38	dem	dem	DET	ART	Case=Dat|Gender=Neut|Number=Sing|PronType=Art	39	det	_	_
+39	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing|Person=3	36	nmod	_	_
+40	jagte	jagen	NOUN	NN	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Person=3	39	appos	_	SpaceAfter=No
+41	.	.	PUNCT	$.	PunctType=Peri	36	punct	_	_
+
+# sent_id = 48
+# text = Nachdem sie lange unstet in der Welt umhergeirrt, und da niemand eine Person, die Schlangen und Kröten sprach, bei sich aufnehmen wollte, ging sie im wilden Walde jämmerlich zugrunde.
+1	Nachdem	Nachdem	SCONJ	KOUS	_	8	mark	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj:pass	_	SpacesAfter=\n
+3	lange	lange	ADJ	ADJD	Degree=Pos|Variant=Short	8	advmod	_	_
+4	unstet	unsten	ADJ	ADJD	Degree=Pos|Variant=Short	8	advmod	_	_
+5	in	in	ADP	APPR	AdpType=Prep|Case=Dat	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Welt	Welt	NOUN	NN	Gender=Fem|Number=Sing|Person=3	8	obl	_	_
+8	umhergeirrt	umhergeirren	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	PunctType=Comm	27	punct	_	_
+10	und	und	CCONJ	KON	_	27	cc	_	_
+11	da	da	SCONJ	KOUS	_	24	mark	_	_
+12	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|Person=3|PronType=Ind,Neg,Tot	24	nsubj	_	_
+13	eine	eine	DET	ART	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Person	Person	NOUN	NN	Gender=Fem|Number=Sing|Person=3	24	obj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	PunctType=Comm	20	punct	_	_
+16	die	die	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel	20	nsubj	_	SpacesAfter=\n
+17	Schlangen	Schlange	NOUN	NN	Gender=Fem|Number=Plur|Person=3	20	obj	_	_
+18	und	und	CCONJ	KON	_	19	cc	_	_
+19	Kröten	unknown	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur|Person=3	17	conj	_	_
+20	sprach	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl	_	SpaceAfter=No
+21	,	,	PUNCT	$,	PunctType=Comm	20	punct	_	_
+22	bei	bei	ADP	APPR	AdpType=Prep|Case=Dat	23	case	_	_
+23	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	24	obl	_	_
+24	aufnehmen	aufnehmen	VERB	VVINF	VerbForm=Inf	27	ccomp	_	_
+25	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbType=Mod	24	aux	_	SpaceAfter=No
+26	,	,	PUNCT	$,	PunctType=Comm	24	punct	_	_
+27	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+28	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+29	im	im	ADP	APPRART	AdpType=Prep|Case=Dat|PronType=Art	31	case	_	_
+30	wilden	wild	ADJ	ADJA	Degree=Pos|Number=Sing	31	amod	_	SpacesAfter=\n
+31	Walde	Wald	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3	27	obl	_	_
+32	jämmerlich	jämmerlich	ADJ	ADJD	Degree=Pos|Variant=Short	27	advmod	_	_
+33	zugrunde	zugrunde	ADP	PTKVZ	PartType=Vbp	27	compound:prt	_	SpaceAfter=No
+34	.	.	PUNCT	$.	PunctType=Peri	8	punct	_	SpaceAfter=No
+
