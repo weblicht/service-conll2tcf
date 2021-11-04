@@ -1,12 +1,28 @@
 package de.uni.tuebingen.sfs.clarind.core;
 
-import eu.clarin.weblicht.wlfxb.io.WLFormatException;
-import eu.clarin.weblicht.wlfxb.tc.api.*;
-import eu.clarin.weblicht.wlfxb.tc.xb.TextCorpusStored;
-
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
+import eu.clarin.weblicht.wlfxb.io.WLFormatException;
+import eu.clarin.weblicht.wlfxb.tc.api.Dependency;
+import eu.clarin.weblicht.wlfxb.tc.api.DependencyParsingLayer;
+import eu.clarin.weblicht.wlfxb.tc.api.Feature;
+import eu.clarin.weblicht.wlfxb.tc.api.LemmasLayer;
+import eu.clarin.weblicht.wlfxb.tc.api.MorphologyLayer;
+import eu.clarin.weblicht.wlfxb.tc.api.NamedEntitiesLayer;
+import eu.clarin.weblicht.wlfxb.tc.api.PosTagsLayer;
+import eu.clarin.weblicht.wlfxb.tc.api.SentencesLayer;
+import eu.clarin.weblicht.wlfxb.tc.api.TextLayer;
+import eu.clarin.weblicht.wlfxb.tc.api.Token;
+import eu.clarin.weblicht.wlfxb.tc.api.TokensLayer;
+import eu.clarin.weblicht.wlfxb.tc.xb.TextCorpusStored;
 
 
 public class Conllu2tcfConverter {
@@ -44,7 +60,9 @@ public class Conllu2tcfConverter {
         PosTagsLayer posLayer = null;
         MorphologyLayer morphologyLayer = null;
         DependencyParsingLayer dependencyParsingLayer = null;
+        NamedEntitiesLayer namedEntitiesLayer = null;
         List<DependencyRelation> depRelations = new ArrayList<>();
+        Map<String, ArrayList<Token>> neMap = new HashMap<String, ArrayList<Token>>();
 
         int index = 0;
         int k = 0;
@@ -170,6 +188,41 @@ public class Conllu2tcfConverter {
                     DependencyRelation depRel = new DependencyRelation(token, columns[7],
                             Integer.parseInt(columns[0]), headIndex, sentencesLayer.size());
                     depRelations.add(depRel);
+                } if (!columns[9].equals("_")) {
+                    
+                	String[] featureList = columns[9].split("\\|");
+                	
+                	String neString = "";
+                	boolean hasNE = false;
+                	
+                	for (String feature : featureList)
+                	{
+                		if (feature.toLowerCase().startsWith("ne="))
+                		{
+                			neString = feature;
+                			hasNE = true;
+                			break;
+                		}
+                	}
+
+                    if (hasNE)
+                    {
+                    	String tokenId = token.getID();
+                    	String[] namedEntities = neString.substring(3,neString.length()).split("-");
+                    	
+                    	for (int i=0; i<namedEntities.length; i++)
+                    	{
+                    		String currentNe = namedEntities[i];
+                    		ArrayList<Token> neTokens = neMap.get(currentNe);
+                    		
+                    		if (neTokens == null)
+                    		{
+                    			neTokens = new ArrayList<Token>();
+                    		}
+                    		neTokens.add(token);
+                    		neMap.put(currentNe, neTokens);
+                    	}
+                    }
                 }
                 index++;
             }
@@ -212,8 +265,27 @@ public class Conllu2tcfConverter {
             TextLayer textLayer = textCorpus.createTextLayer();
             textLayer.addText(rawText.toString());
         }
+        
+        // build NeLayer
+        if (neMap.size() > 0)
+        {
+        	if (namedEntitiesLayer == null)
+        	{
+        		namedEntitiesLayer = textCorpus.createNamedEntitiesLayer("CoNLL2002");
+        	}
+        	
+        	for (Map.Entry<String, ArrayList<Token>> entry : neMap.entrySet()) {
+        		
+        	    String neId = entry.getKey();
+        	    ArrayList<Token> neTokens = entry.getValue();
+        	    String[] neIdComponents = neId.split("_");
+        	    String neType = neIdComponents[0];
+        	    
+        	    namedEntitiesLayer.addEntity(neType, neTokens);
+        	}
+        }
+        
         return textCorpus;
-
     }
 
     private String[] multiTokenParts(int k, int tokenLayerLength) {
