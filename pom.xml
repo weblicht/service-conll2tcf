@@ -126,7 +126,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.4.13</version>
 				<configuration>
-					<imageName>weblicht.sfs.uni-tuebingen.de:5000/clarind/wl-webservices/${project.artifactId}</imageName>
+					<imageName>weblicht.sfs.uni-tuebingen.de:5000/management/dockerimages/${project.artifactId}</imageName>
 					<baseImage>anapsix/alpine-java</baseImage>
 					<entryPoint>["sh", "/${project.artifactId}/bin/${project.artifactId}", "server","/${project.artifactId}/service-config.yaml"]</entryPoint>
 					<imageTags>
