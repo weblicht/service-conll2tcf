@@ -21,6 +21,11 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>de.tuebingen.uni.sfs.clarind</groupId>
+			<artifactId>conll2tcf</artifactId>
+			<version>1.0.3</version>
+		</dependency>
+		<dependency>
 			<groupId>eu.clarin.weblicht</groupId>
 			<artifactId>wlfxb</artifactId>
 			<version>${wlfxb.version}</version>
