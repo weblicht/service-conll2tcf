@@ -23,7 +23,7 @@
 		<dependency>
 			<groupId>de.tuebingen.uni.sfs.clarind</groupId>
 			<artifactId>conll2tcf</artifactId>
-			<version>1.0.4</version>
+			<version>1.0.8</version>
 		</dependency>
 		<dependency>
 			<groupId>eu.clarin.weblicht</groupId>
