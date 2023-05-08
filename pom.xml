@@ -18,6 +18,23 @@
         <connection>scm:git:git@github.com:weblicht/service-conll2tcf.git</connection>
         <developerConnection>scm:git:git@github.com:weblicht/service-conll2tcf.git</developerConnection>
     </scm>
+    
+    <repositories>
+      <repository>
+            <id>sfs-clarind-nexus</id>
+            <name>Internal Releases</name>
+            <url>https://weblicht.sfs.uni-tuebingen.de/nexus/content/repositories/releases</url>
+        </repository>
+        <repository>
+            <id>sfs-clarind-nexus-snapshots</id>
+            <name>Internal Snapshots</name>
+            <url>https://weblicht.sfs.uni-tuebingen.de/nexus/content/repositories/snapshots</url>
+        </repository>
+        <repository>
+            <id>clarin</id>
+            <url>http://catalog.clarin.eu/ds/nexus/content/repositories/Clarin/</url>
+        </repository>
+    </repositories>
 
 	<dependencies>
 		<dependency>
